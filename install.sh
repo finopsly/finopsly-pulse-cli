@@ -2,8 +2,8 @@
 # Installs the FinOpsly CLI on macOS or Linux.
 #
 # Usage:
-#   curl -fsSL https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/development/install.sh | sh
-#   curl -fsSL https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/development/install.sh | sh -s -- v1.2.0
+#   curl -fsSL https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/main/install.sh | sh
+#   curl -fsSL https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/main/install.sh | sh -s -- v1.2.0
 set -eu
 
 REPO="finopsly/finopsly-pulse-cli"

@@ -51,10 +51,10 @@ and install it with `dpkg -i` or `rpm -i`.
 
 **Install script (macOS, Linux, Windows):**
 ```
-curl -fsSL https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/development/install.sh | sh
+curl -fsSL https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/main/install.sh | sh
 ```
 ```
-irm https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/development/install.ps1 | iex
+irm https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/main/install.ps1 | iex
 ```
 Pass a version to install something other than latest, e.g. `sh -s -- v1.2.0`.
 

@@ -1,10 +1,10 @@
 # Installs the FinOpsly CLI on Windows.
 #
 # Usage:
-#   irm https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/development/install.ps1 | iex
+#   irm https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/main/install.ps1 | iex
 #
 # To install a specific version, download and run with a parameter instead:
-#   $script = irm https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/development/install.ps1
+#   $script = irm https://raw.githubusercontent.com/finopsly/finopsly-pulse-cli/main/install.ps1
 #   Invoke-Expression "& { $script } -Version v1.2.0"
 param(
     [string]$Version = "latest"
