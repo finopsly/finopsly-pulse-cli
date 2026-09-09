@@ -1,0 +1,149 @@
+FINOPSLY CLI — END USER LICENSE AGREEMENT
+
+Copyright (c) 2026 FinOpsly Inc. All rights reserved.
+
+--------------------------------------------------------------------------------
+
+This End User License Agreement ("Agreement") is a legal agreement between you
+(either an individual or a single entity, "Licensee" or "you") and FinOpsly Inc.,
+a company headquartered at 7100 Foundry Row Suite 288-76, Liberty Township,
+Ohio 45069, USA ("FinOpsly", "we", "us", or "Licensor"), governing your use of
+the FinOpsly command-line interface (CLI), including any associated
+documentation and updates (the "Software").
+
+If you are entering into this Agreement on behalf of a company or other legal
+entity, you represent that you have the authority to bind that entity, in
+which case "you" and "Licensee" refer to that entity.
+
+By installing, copying, or otherwise using the Software, you agree to be bound
+by the terms of this Agreement. If you do not agree, do not install or use the
+Software.
+
+1. GRANT OF LICENSE
+   Subject to your compliance with this Agreement, FinOpsly grants you a
+   limited, non-exclusive, non-transferable, revocable license to install and
+   use the Software solely in connection with an active FinOpsly account in
+   good standing, for your own internal business purposes.
+
+2. RESTRICTIONS
+   You may not, and may not permit anyone else to:
+   (a) copy, modify, or create derivative works of the Software, except as
+       expressly permitted by the Software's own open-source components (see
+       Section 5);
+   (b) reverse engineer, decompile, or disassemble the Software, except to the
+       extent such restriction is prohibited by applicable law;
+   (c) sell, resell, sublicense, rent, lease, or otherwise transfer the
+       Software or any rights granted under this Agreement to any third party;
+   (d) use the Software independently of, or to build a competing product to,
+       the FinOpsly platform;
+   (e) use the Software once your FinOpsly account has been suspended,
+       cancelled, or terminated.
+
+3. OWNERSHIP
+   The Software is licensed, not sold. FinOpsly and its licensors retain all
+   right, title, and interest in and to the Software, including all related
+   intellectual property rights. This Agreement does not grant you any rights
+   to FinOpsly's trademarks or service marks.
+
+4. DATA AND CONNECTIVITY
+   The Software does not transmit telemetry to FinOpsly by default. When you
+   run a command that analyzes infrastructure (such as `finopsly estimate`),
+   the Software sends the Terraform plan data for that run — and no other
+   project data — to the FinOpsly FI Pulse API. If AMI enrichment is enabled,
+   the Software may also query your local AWS credentials (via AWS EC2
+   DescribeImages) to enrich cost estimates; this call is made directly to AWS
+   from your machine and is not routed through FinOpsly. Use of the FinOpsly
+   API is additionally governed by FinOpsly's Privacy Policy
+   (https://finopsly.com/privacy-policy).
+
+5. THIRD-PARTY AND OPEN-SOURCE COMPONENTS
+   The Software may include third-party open-source components, each subject
+   to its own license terms. Nothing in this Agreement limits your rights
+   under, or grants you rights that supersede, the terms of any applicable
+   open-source license.
+
+6. FEEDBACK
+   If you submit feedback, bug reports, or suggestions about the Software,
+   you grant FinOpsly an unrestricted, royalty-free, perpetual right to use
+   them for any purpose, without obligation or compensation to you.
+
+7. TERM AND TERMINATION
+   This Agreement is effective until terminated. Your license terminates
+   automatically, without notice, if you breach any term of this Agreement, or
+   if your FinOpsly account is suspended, cancelled, or terminated. Upon
+   termination, you must uninstall the Software and destroy all copies.
+   Sections 3, 4, 6, 8, 9, 10, and 11 survive termination.
+
+8. DISCLAIMER OF WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS," WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT. COST ESTIMATES AND
+   POLICY FINDINGS PRODUCED BY THE SOFTWARE ARE INDICATIVE ONLY AND ARE NOT A
+   GUARANTEE OF ACTUAL CLOUD SPEND OR COMPLIANCE OUTCOMES.
+
+9. LIMITATION OF LIABILITY
+   TO THE MAXIMUM EXTENT PERMITTED BY APPLICABLE LAW, IN NO EVENT SHALL
+   FINOPSLY BE LIABLE FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR
+   PUNITIVE DAMAGES, OR ANY LOSS OF PROFITS OR REVENUE, ARISING OUT OF OR
+   RELATED TO YOUR USE OF THE SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+   SUCH DAMAGES. FINOPSLY'S TOTAL LIABILITY ARISING OUT OF THIS AGREEMENT SHALL
+   NOT EXCEED THE AMOUNT YOU PAID, IF ANY, FOR THE SOFTWARE IN THE TWELVE (12)
+   MONTHS PRECEDING THE CLAIM.
+
+10. INDEMNIFICATION
+    You agree to indemnify, defend, and hold harmless FinOpsly and its
+    officers, employees, and agents from any claim, liability, or expense
+    (including reasonable attorneys' fees) arising from your breach of this
+    Agreement or your misuse of the Software.
+
+11. GOVERNING LAW
+    This Agreement is governed by the laws of the State of Ohio, without
+    regard to its conflict-of-laws principles, consistent with FinOpsly's
+    Terms of Use (https://finopsly.com/terms-of-use). Any disputes arising
+    under this Agreement shall be resolved exclusively in the state or
+    federal courts located in Ohio.
+
+12. U.S. GOVERNMENT END USERS
+    The Software is "commercial computer software" as defined in applicable
+    U.S. federal acquisition regulations. Any use, reproduction, release,
+    performance, display, or disclosure by or for the U.S. Government is
+    governed solely by the terms of this Agreement.
+
+13. EXPORT COMPLIANCE
+    You may not use or export the Software in violation of U.S. export
+    control laws and regulations, or export it to any country, entity, or
+    person prohibited under those laws.
+
+14. NOTICES
+    FinOpsly may provide notices under this Agreement via the Software itself,
+    to the email associated with your FinOpsly account, or by posting to
+    https://finopsly.com. Notices to FinOpsly should be sent to
+    support@finopsly.com.
+
+15. ASSIGNMENT
+    You may not assign or transfer this Agreement without FinOpsly's prior
+    written consent. FinOpsly may assign this Agreement without your consent
+    in connection with a merger, acquisition, or sale of substantially all of
+    its assets.
+
+16. SEVERABILITY; NO WAIVER
+    If any provision of this Agreement is held unenforceable, the remaining
+    provisions remain in full force and effect. FinOpsly's failure to enforce
+    any provision is not a waiver of its right to do so later.
+
+17. CHANGES TO THIS AGREEMENT
+    FinOpsly may update this Agreement from time to time. Material changes
+    will be reflected in an updated version distributed with the Software.
+    Continued use of the Software after such changes constitutes acceptance.
+
+18. ENTIRE AGREEMENT
+    This Agreement, together with FinOpsly's Terms of Use and Privacy Policy,
+    constitutes the entire agreement between you and FinOpsly regarding the
+    Software and supersedes any prior agreements on this specific subject.
+    If you (or your employer) have a separate written agreement with FinOpsly
+    governing your broader use of the FinOpsly platform (a "Subscription
+    Agreement"), that Subscription Agreement controls as to any conflict on
+    matters it covers; this Agreement governs the Software specifically.
+
+19. CONTACT
+    Questions about this Agreement can be sent to support@finopsly.com.
